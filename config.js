@@ -39,18 +39,18 @@ module.exports = {
   KOYEB_API_KEY: process.env.KOYEB_API_KEY || '',
   
   //AUTOMATION 🎯
-  AUTO_ALWAYS_ONLINE: toBool(process.env.AUTO_ALWAYS_ONLINE || 'false'),
+  AUTO_ALWAYS_ONLINE: toBool(process.env.AUTO_ALWAYS_ONLINE || 'true'),
   AUTO_CALL_REJECT: toBool(process.env.AUTO_CALL_REJECT || 'false'),
   AUTO_CALL_REJECT_MSG: process.env.AUTO_CALL_REJECT_MSG || '*ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴄᴀʟʟ ʙʟᴏᴄᴋɪɴɢ*\n\nꜱᴏʀʀʏ ᴄᴀʟʟꜱ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\nᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴀ ᴛᴇxᴛ ᴍᴇꜱꜱᴀɢᴇ/ᴠᴏɪᴄᴇ ᴍᴇꜱꜱᴀɢᴇ\n\n> ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
   AUTO_MSG_READ: toBool(process.env.AUTO_MSG_READ || 'false'),
   AUTO_MSG_REACT: toBool(process.env.AUTO_MSG_REACT || 'false'),
 
   //AUTOMATION-FIX SOON 🎯
-  AUTO_STATUS_SAVER: toBool(process.env.AUTO_STATUS_SAVER || 'false'),
-  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'false'),
+  AUTO_STATUS_SAVER: toBool(process.env.AUTO_STATUS_SAVER || 'true'),
+  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'true'),
   AUTO_STATUS_REPLY: toBool(process.env.AUTO_STATUS_REPLY || 'false'),
   AUTO_STATUS_REPLY_MSG: process.env.AUTO_STATUS_REPLY_MSG || '_*Nice Status Bro 🍀*_',
-  AUTO_STATUS_REACT: toBool(process.env.AUTO_STATUS_REACT || 'false'),
+  AUTO_STATUS_REACT: toBool(process.env.AUTO_STATUS_REACT || 'true'),
   AUTO_STATUS_REACT_EMOJIS: process.env.AUTO_STATUS_REACT_EMOJIS || ['🥳','🤩','🥰','💀','😇','🎯','🫶','👀','🥶','❤️','🩷','🧡','💛','💚','💙','🩵','💜','🤎','🖤','🩶','🤍','🤑'],
 //_______________#OTHER(⚠️ Warning Dont Edit Anything Here)______________________________________________________________________________________
   BASE_URL: 'https://abhi-api.vercel.app/', // Don't Change This
